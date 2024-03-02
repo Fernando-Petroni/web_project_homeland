@@ -50,7 +50,7 @@
   margin-top: 8px;
   }
 
-.place__artist-detail__steffan1 {
+.place__artist-detail__steffan--primary {
   margin: 0;
   font-size: 18px;
   font-weight: 400;
@@ -59,7 +59,7 @@
   text-align: left;
   }
 
-.place__artist-detail__steffan2 {
+.place__artist-detail__steffan--secondary {
   margin: 0 0 40px;
   font-size: 18px;
   font-weight: 400;
