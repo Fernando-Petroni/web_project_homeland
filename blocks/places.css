@@ -213,7 +213,7 @@
     font-size: 16px;
     }
 
-    .form {
+    .place__link {
       margin: auto;
     }
 
@@ -286,7 +286,7 @@
       margin: 0 auto;
   }
 
-  .button {
+  .place__button {
       max-width: 288px;
       font-size: 0.87rem;
       border-radius: 4px;
