@@ -11,7 +11,7 @@
     background: rgba(42, 44, 47, 0.4) url(../images/__background.png) no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-
+    margin-top: 100px;
 
 }
 .cover:hover {
