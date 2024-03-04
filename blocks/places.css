@@ -88,11 +88,17 @@
     line-height: 29px;
    }
 
-.button {
+.place__link {
   grid-area: button;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
   font-weight: 600;
   width: 100%;
   max-width: 355px;
+  line-height: 21.78px;
   height: 48px;
   font-size: 18px;
   border: none;
@@ -102,10 +108,11 @@
   color: #ffffff;
 }
 
-.button:hover {
+.place__link:hover {
   cursor: pointer;
   background-color: #0063d2;
   transition: 0.5s;
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -160,17 +167,11 @@
       text-align: left;
   }
 
-  .form {
+  .place__link {
       margin: auto;
     }
 
-    .button {
-      max-width: 355px;
-      font-size: 1.12rem;
-      border-radius: 4px;
-      margin: 0;
-    }
-}
+   }
 
 @media screen and (max-width:734px) {
   .places {
@@ -217,14 +218,7 @@
       margin: auto;
     }
 
-    .button {
-      max-width: 355px;
-      font-size: 1.12rem;
-      border-radius: 4px;
-      margin: 0;
-      margin-bottom: 52px;
-    }
-}
+  }
 
 @media screen and (max-width: 544px) {
 .main {
@@ -286,7 +280,7 @@
       margin: 0 auto;
   }
 
-  .place__button {
+  .place__link {
       max-width: 288px;
       font-size: 0.87rem;
       border-radius: 4px;
